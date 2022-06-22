@@ -2,9 +2,9 @@
 
 /**
 * swaps_nodes - Swaps tha nodes
-* @l: left or lower node
-* @r: right or later node
-* @h: Head of dlist
+* @l: left node
+* @r: right node
+* @h: Head
 */
 
 void swaps_nodes(listint_t *l, listint_t *r, listint_t **h)
@@ -27,7 +27,7 @@ void swaps_nodes(listint_t *l, listint_t *r, listint_t **h)
 
 /**
 * insertion_sort_list - sorts a doubly linked list of integers
-* @list: Head of dlist
+* @list: Head
 */
 
 void insertion_sort_list(listint_t **list)
