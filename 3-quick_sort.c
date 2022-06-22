@@ -15,7 +15,7 @@ void swap(int *x, int *y)
 }
 
 /**
-* partition - handle partition
+* part - handle partition
 * @array: array
 * @low: low
 * @high: high
